@@ -1,0 +1,47 @@
+<html>
+
+<head>
+    <title>VRcollab - BIM and VDC Coordination</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+	<script src="aframe.min.js"></script>
+</head>
+
+<body>
+    <div class="thumbnail-container">
+        <p>VRcollab - BIM and VDC Coordination</p>
+		<div class="thumbnail" id="thumbnail"></div>
+    </div>
+    <div class="scene-container">
+        <div class="scene-logo-container">
+            <img src="logo.png">
+        </div>
+        <div class="scene-name-container">
+            <span id="scene-name"></span>
+        </div>
+        <a-scene embedded>
+			<a-assets id="assets-container">
+				<img id="Cafe - Plaza Level 1" src="images/Cafe - Plaza Level 1.jpg">
+				<img id="Entrance - Plaza Level 1" src="images/Entrance - Plaza Level 1.jpg">
+				<img id="Lounge Area - Plaza Level 1" src="images/Lounge Area - Plaza Level 1.jpg">
+				<img id="Roof - Plaza" src="images/Roof - Plaza.jpg">
+				<img id="South Wing Lift - Plaza Level 2" src="images/South Wing Lift - Plaza Level 2.jpg">
+				<img id="Top Deck Foyer - Plaza Level 2" src="images/Top Deck Foyer - Plaza Level 2.jpg">
+			</a-assets>
+            <a-sky id="sky">
+                <a-animation attribute="rotation" fill="forwards" easing="linear" dur="50000" from="0 0 0" to="0 360 0"
+                    repeat="indefinite"></a-animation>
+            </a-sky>
+        </a-scene>
+		<div id="loading-screen">
+			<div class="spinner">			
+			  <div class="bounce1"></div>
+			  <div class="bounce2"></div>
+			  <div class="bounce3"></div>
+			</div>
+		</div>
+    </div>
+</body>
+
+<script src="script.js"></script>
+
+</html>

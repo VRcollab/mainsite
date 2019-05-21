@@ -1,0 +1,461 @@
+<!doctype html>
+<html>
+
+<meta name="description"
+    content="AEC collaboration in Virtual Reality, VRcollab enables BIM models for use in VDC design reviews, architecture coordination, engineering and construction.">
+<title>VRcollab - BIM and VDC Coordination in Virtual Reality</title>
+<head>
+	<meta name="generator" content="Hugo 0.54.0" />
+    
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-WNXZ4JV');</script>
+    
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+
+    <meta name="keywords" content="BIM,VDC,Virtual Reality,VRcollab,BCA,HDB,NUS,NTU,AEC,Construction,Architecture,Rendering,Coordination">
+
+    
+<script type="application/javascript">
+var doNotTrack = false;
+if (!doNotTrack) {
+	(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+	ga('create', 'UA-124205822-1', 'auto');
+	
+	ga('send', 'pageview');
+}
+</script>
+
+
+    
+    <script src='/vendor/js/sweetalert.min.js'></script>
+    <script src='https://vrcollab.com/vendor/js/jquery.min.js'></script>
+    <link rel="stylesheet" href='https://vrcollab.com/vendor/css/bootstrap.min.css'>
+    <script src='https://vrcollab.com/vendor/js/bootstrap.min.js'></script>
+    <script src='https://vrcollab.com/vendor/js/fontawesome.min.js'></script>
+    <script src='https://vrcollab.com/js/account.js'></script>
+    <link rel="stylesheet" href='https://vrcollab.com/css/style.css'>
+
+    <link rel="apple-touch-icon" sizes="57x57" href='https://vrcollab.com/img/favicon/apple-icon-57x57.png'>
+    <link rel="apple-touch-icon" sizes="60x60" href='https://vrcollab.com/img/favicon/apple-icon-60x60.png'>
+    <link rel="apple-touch-icon" sizes="72x72" href='https://vrcollab.com/img/favicon/apple-icon-72x72.png'>
+    <link rel="apple-touch-icon" sizes="76x76" href='https://vrcollab.com/img/favicon/apple-icon-76x76.png'>
+    <link rel="apple-touch-icon" sizes="114x114" href='https://vrcollab.com/img/favicon/apple-icon-114x114.png'>
+    <link rel="apple-touch-icon" sizes="120x120" href='https://vrcollab.com/img/favicon/apple-icon-120x120.png'>
+    <link rel="apple-touch-icon" sizes="144x144" href='https://vrcollab.com/img/favicon/apple-icon-144x144.png'>
+    <link rel="apple-touch-icon" sizes="152x152" href='https://vrcollab.com/img/favicon/apple-icon-152x152.png'>
+    <link rel="apple-touch-icon" sizes="180x180" href='https://vrcollab.com/img/favicon/apple-icon-180x180.png'>
+    <link rel="icon" type="image/png" sizes="192x192" href='https://vrcollab.com/img/favicon/android-icon-192x192.png'>
+    <link rel="icon" type="image/png" sizes="32x32" href='https://vrcollab.com/img/favicon/favicon-32x32.png'>
+    <link rel="icon" type="image/png" sizes="96x96" href='https://vrcollab.com/img/favicon/favicon-96x96.png'>
+    <link rel="icon" type="image/png" sizes="16x16" href='https://vrcollab.com/img/favicon/favicon-16x16.png'>
+    <link rel="manifest" href='https://vrcollab.com/img/favicon/manifest.json'>
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content='https://vrcollab.com/img/favicon/ms-icon-144x144.png'>
+    <meta name="theme-color" content="#ffffff">
+</head>
+
+
+<body>
+    
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WNXZ4JV" height="0" width="0"
+        style="display:none;visibility:hidden"></iframe></noscript>
+
+<nav class="navbar fixed-top navbar-expand-lg navbar-dark"
+    style="background-image: linear-gradient(to right, rgb(8, 30, 124) , rgb(154, 208, 224));">
+    <a class="navbar-brand" href="https://vrcollab.com/">
+        <img src="https://vrcollab.com/img/vrcollab-logo-white.png" width="115" height="30" alt="">
+    </a>
+
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="https://vrcollab.com/">Home</a>
+            </li>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Product
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    <a class="dropdown-item" href="https://vrcollab.com/lite" target="_blank">Lite</a>
+                    
+                    <a class="dropdown-item" href="https://vrcollab.com/studio" target="_blank">Studio</a>
+                    
+                    <a class="dropdown-item" href="https://vrcollab.com/VRcollab%20AEC%20Solutions%20Deck%202019.pdf" target="_blank">Product Information</a>
+                    
+                </div>
+            </li>
+
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">
+                    Learn
+                </a>
+                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    
+                    <a class="dropdown-item" href="https://vrcollab.com/posts" target="_blank">Blog</a>
+                    
+                    <a class="dropdown-item" href="https://help.vrcollab.com/" target="_blank">Help Center</a>
+                    
+                </div>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href='https://vrcollab.com/pricing'>Pricing</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href='https://vrcollab.com/contact_us'>Contact Us</a>
+            </li>
+        </ul>
+
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item" style="padding:5px;">
+                <a class="btn btn-outline-light" href='https://vrcollab.com/login'>Login</a>
+            </li>
+            <li class="nav-item" style="padding:5px;">
+                <a class="btn btn-warning" href='https://vrcollab.com/download' role="button">Free
+                    Download</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div style="margin-top: 64px;"></div>
+
+    <div id="hero"
+    style="margin-top: -10px; background-image: linear-gradient(to right, rgb(8, 30, 124) , rgb(154, 208, 224)); color: white; min-height: 60vh; width: 100%; display: table;">
+    <div style="display: table-cell; vertical-align: middle;position: relative;">
+        <div class="container pt-4" style="padding-bottom: 80px;">
+            <div class="row mx-auto">
+                <div class="col-md-6 pb-4" style="margin: auto;">
+                    <h1>Making BIM Accessible</h1>
+                    <br>
+                    <h4 style="margin-bottom: 30px;">Collaborate & Coordinate effectively to <br />
+                        boost your project efficiency</h4>
+                    <p style="margin-bottom: 30px;">We bring AEC professionals into one collaborative space.
+                        Making it convenient for you to work together from any location in the world. Great visuals,
+                        quick navigation and smart annotative tools help with effective communication.</p>
+                </div>
+                <div class="col-md-6 pb-4" style="margin: auto;">
+                    <video width="100%" height="303px" controls autoplay muted loop>
+                        <source src='https://storage.googleapis.com/vrcollab-site-assets/Hero%20BIM%20VDC%20Video.mp4' type="video/mp4">
+                        Your browser does not support HTML5 video.
+                    </video>
+                </div>
+            </div>
+            <div class="row flex-md-row-reverse mx-auto">
+                <div class="col-md-6 pb-4" style="margin: auto;">
+                    <div style="display: table; margin-bottom: 10px;">
+                        <div style="width: 80px; display: table-cell; padding: 10px">
+                            <img src="/img/rexter.png" style="width: 100%;">
+                        </div>
+
+                        <div style="display: table-cell; padding: 10px; vertical-align: middle;">
+                            <p style="margin-bottom: 0px;">"VRcollab truly redefines collaboration in construction."
+                                <br /><b>Rexter Retana</b> from Mott MacDonald</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 pb-4" style="margin: auto;">
+                    <div style="display: table; margin-bottom: 10px;">
+                        <div style="display: table-cell; vertical-align: middle; padding: 10px; padding-left: 0px;">
+                            <a class="btn btn-warning" style="padding: 12px; font-weight:bold;" href="/download"
+                                target="_blank">Download Now</a>
+                        </div>
+
+                        <div style="display: table-cell; padding: 10px; vertical-align: top;">
+                            <p style="margin-bottom: 0px; font-size: 12px;">*No VR Hardware Required<br />*No
+                                Registration
+                                Needed<br />*Unlimited Trial</p>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+        <a class="text-center" style="color: white;position: absolute;;bottom: 0px; width: 100%;" href="#workflow">
+            <div><i class="fas fa-angle-down" style="font-size: 45px;"></i></div>
+            <p>Scroll Down</p>
+        </a>
+    </div>
+</div>
+    <div id="workflow" class="container text-center py-4">
+    <h3 style="margin-bottom: 10px; margin-top: 30px; font-weight:bold;">Built For<br />Architects . Engineers . Contractors</h3>
+    <p class="text-secondary">With your Team and Building Information Models in one easily accessible place,<br />collaborating online is
+        as seamless as collaborating in person.</p>
+    <img src="/img/workflow_diagram.png" style="width: 100%;">
+</div>
+    <div class="container text-center">
+    <h3 style="margin-bottom: 10px; margin-top: 30px; font-weight:bold;">Highlighted Features</h3>
+    <p class="text-secondary">We have selected the top 3 features of this month for your reference.</p>
+</div>
+
+<div class="container pt-4 gray-border-bottom">
+    <div class="row text-left">
+        <div class="col-md-6 pb-4">
+            <h3><span style="font-size: 5rem; color: #FFB34A;">01 </span><span style="font-weight:bold;">Multi-User
+                    Coordination</span></h3>
+            <p class="text-secondary">Participate in multiuser stakeholder meetings. These meetings can be conducted
+                straight from your desktop
+                or in VR depending on your needs. Identify issues with colleagues and resolve problems early in the
+                design process, to allow for a smooth project delivery.</p>
+            <a class="btn btn-outline-primary" href='https://vrcollab.com/lite' target="_blank">Read more</a>
+        </div>
+        <div class="col-md-6 pb-4">
+            <video width="100%" height="303px" autoplay muted loop>
+                <source src='https://storage.googleapis.com/vrcollab-site-assets/VR%20BIM%20Multiuser%20Coordination%20BECA.mp4' type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 gray-border-bottom">
+    <div class="row flex-md-row-reverse text-left">
+        <div class="col-md-6 pb-4">
+            <h3><span style="font-size: 5rem; color: #FFB34A;">02 </span><span style="font-weight:bold;">BIM Data
+                    Retrieval</span></h3>
+            <p class="text-secondary">All object information and data from your Building Information Models will be
+                accessible in VRcollab Lite
+                simply by selecting any object. X-Ray view mode allows for detailed viewing of MEP systems and other
+                elements that would typically be hidden in the default shaded view. Colour coding of the various
+                elements eases in their selection.</p>
+            <a class="btn btn-outline-primary" href='https://vrcollab.com/lite' target="_blank">Read more</a>
+        </div>
+        <div class="col-md-6 pb-4">
+            <video width="100%" height="303px" autoplay muted loop>
+                <source src='https://storage.googleapis.com/vrcollab-site-assets/Xray%20MEP%20Highlight.mp4' type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+        </div>
+    </div>
+</div>
+
+<div class="container pt-4 gray-border-bottom">
+    <div class="row text-left">
+        <div class="col-md-6 pb-4">
+            <h3><span style="font-size: 5rem; color: #FFB34A;">03 </span><span style="font-weight:bold;">Annotate & 360
+                    View Export</span></h3>
+            <p class="text-secondary">Interact with your BIM models with our annotate and measurement functions. We have
+                included a new feature
+                allowing users to export a 360 degree view from any location within their model. This allows you to
+                share issues with non VRcollab users via a weblink.</p>
+            <a class="btn btn-outline-primary" href='https://vrcollab.com/lite' target="_blank">Read more</a>
+        </div>
+        <div class="col-md-6 pb-4 text-center">
+            <iframe width="100%" height="303px" src='https://vrcollab.com/360/index.html' style="border: none;"></iframe>
+            <p class="text-secondary" style="font-style: italic">Click and drag on images to look around</p>
+        </div>
+    </div>
+</div>
+
+<div class="container py-4 gray-border-bottom" style="margin-top: 30px; padding-bottom:40px!important;">
+    <div class="row text-left">
+        <div class="col-md-4">
+            <h4 style="font-weight:bold;">Section Cut</h4>
+            <img src="/img/section-cut.jpg" style="width: 100%; height: 200px; padding-bottom: 20px; max-width: 450px;">
+            <p class="text-secondary">Cut sections through your models to explore the relationship between different
+                spaces, drop
+                ceiling heights and MEP requirements for your building.</p>
+        </div>
+        <div class="col-md-4">
+            <h4 style="font-weight:bold;">Import Terrain</h4>
+            <img src="/img/terrain.jpg" style="width: 100%; height: 200px; padding-bottom: 20px; max-width: 450px;">
+            <p class="text-secondary">Import detailed terrain models to gain a contextual understanding of your building
+                and how it
+                relates to its surroundings.</p>
+        </div>
+        <div class="col-md-4">
+            <h4 style="font-weight:bold;">Report Generation</h4>
+            <img src="/img/report.jpg" style="width: 100%; height: 200px; padding-bottom: 20px; max-width: 450px;">
+            <p class="text-secondary">After conducting meetings in VRcollab, all comments and screenshots will be
+                automatically
+                compiled into a PDF report for your convenience.</p>
+        </div>
+    </div>
+</div>
+    <div class="container py-4 text-center" style="margin-top:20px;">
+    <h3 style="font-weight:bold;margin-bottom: 30px;">How has VRcollab helped our clients?</h3>
+    <div class="row text-left gray-border-bottom" style="padding-bottom:40px;">
+        <div class="col-md-4">
+            <div style="display: table; margin-bottom: 10px;">
+                <div style="width: 100px; display: table-cell; padding: 10px">
+                    <img src="/img/rexter.png" style="width: 100%;">
+                </div>
+
+                <div style="display: table-cell; padding: 10px; vertical-align: top;">
+                    <p style="margin-bottom: 0px;"><b>Rexter Retana</b> <br />Digital Delivery Manager<br/>
+                        Mott MacDonald</p>
+                </div>
+            </div>
+
+            <p class="text-secondary">VRcollab truly redefines collaboration in construction. It allows us to collaborate more
+                efficiently and efficiently while immersing ourselves into the virtual space; which was
+                unachievable in current conventional practice.</p>
+        </div>
+        <div class="col-md-4">
+            <div style="display: table; margin-bottom: 10px;">
+                <div style="width: 100px; display: table-cell; padding: 10px">
+                    <img src="/img/khalil.png" style="width: 100%;">
+                </div>
+
+                <div style="display: table-cell; padding: 10px; vertical-align: top;">
+                    <p style="margin-bottom: 0px;"><b>Khalil Shaiful</b> <br />Digital Delivery Manager<br/>
+                        Boustead Singapore</p>
+                </div>
+            </div>
+            <p class="text-secondary">As a builder and main contractor, we are able to use VRcollab to connect the site to
+                headquarters, where we are able to get faster and a more informed decision from our project
+                directors.</p>
+        </div>
+        <div class="col-md-4">
+            <div style="display: table; margin-bottom: 10px;">
+                <div style="width: 100px; display: table-cell; padding: 10px">
+                    <img src="/img/darren.png" style="width: 100%;">
+                </div>
+
+                <div style="display: table-cell; padding: 10px; vertical-align: top;">
+                    <p style="margin-bottom: 0px;"><b>Darren Burrows</b> <br />Senior Engineer<br/>
+                        BECA Group</p>
+                </div>
+            </div>
+            <p class="text-secondary">With VRcollab, we can certainly increase the efficiency of our drawing reviews and also have a
+                greater accuracy while being more confident with our complete design.</p>
+        </div>
+    </div>
+    <img src="/img/clients.jpg" style="width: 100%; margin-top:40px;">
+    
+</div>
+
+    <a class="container text-center" style="cursor: pointer; color: black;" href="#hero">
+        <div><i class="fas fa-angle-up" style="font-size: 45px;"></i></div>
+        <p>Back to Top</p>
+    </a>
+
+    <footer class="page-footer font-small blue pt-4 footer bg-white text-dark container" style="border-top: solid 1px;">
+    <div class="container-fluid text-md-left">
+        <div class="row " style="margin-left: auto; margin-right: auto; margin-top: 20px;">
+            <div class="col-md-3 mb-md-0 mb-3">
+                <a href="https://vrcollab.com/"><img src='https://vrcollab.com/img/vrcollab-logo.png'
+                        style="width: 100%; max-width: 200px; padding-bottom: 15px; padding-top: 5px; margin-top: -20px;"></a>
+            </div>
+
+            <div class="col-md-2 mb-md-0 mb-3">
+                <h5 style="font-size: 16px;"><b>PRODUCT</b></h5>
+                <ul class="list-unstyled" style="font-size: 14px;">
+                    
+                    <li>
+                        <a href="https://vrcollab.com/lite" class="text-secondary" target="_blank">Lite</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://vrcollab.com/studio" class="text-secondary" target="_blank">Studio</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://vrcollab.com/VRcollab%20AEC%20Solutions%20Deck%202019.pdf" class="text-secondary" target="_blank">Product Information</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-md-2 mb-md-0 mb-3">
+                <h5 style="font-size: 16px;"><b>LEARN</b></h5>
+                <ul class="list-unstyled" style="font-size: 14px;">
+                    
+                    <li>
+                        <a href="https://vrcollab.com/posts" class="text-secondary"
+                            target="_blank">Blog</a>
+                    </li>
+                    
+                    <li>
+                        <a href="https://help.vrcollab.com/" class="text-secondary"
+                            target="_blank">Help Center</a>
+                    </li>
+                    
+                </ul>
+            </div>
+
+            <div class="col-md-2 mb-md-0 mb-3">
+                <h5 style="font-size: 16px;"><b>CONTACT US</b></h5>
+                <p class="text-secondary" style="font-size: 14px;">
+                    E: info@vrcollab.com
+                    <br /> P: +65 98144461
+                </p>
+            </div>
+
+            <div class="col-md-2 mb-md-0 mb-3">
+                <h5 style="font-size: 16px;"><b>GET UPDATES</b></h5>
+                <ul class="list-inline social-list-sm">
+                    <li class="list-inline-item">
+                        <a href="https://www.facebook.com/VRcollab/" target="_blank"
+                            class="text-secondary">
+                            <i class="fab fa-facebook"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://twitter.com/vrcollab" target="_blank"
+                            class="text-secondary">
+                            <i class="fab fa-twitter-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.youtube.com/channel/UCWrdTfVPQLrgeL-8tgbhhzg" target="_blank"
+                            class="text-secondary">
+                            <i class="fab fa-youtube-square"></i>
+                        </a>
+                    </li>
+                    <li class="list-inline-item">
+                        <a href="https://www.linkedin.com/company/vrcollab/" target="_blank"
+                            class="text-secondary">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+            <div class="col-md-1 mb-md-0 mb-3"></div>
+        </div>
+    </div>
+
+    <div class="footer-copyright pl-5 py-3 text-center" style="font-size: .75rem; color: #777">
+        <p>Terms - Privacy Policy - Cookies Policy <br> <br>© 2019 Copyright: VRcollab Pte. Ltd. <br> Address: #01-16,
+            75 Ayer Rajah Crescent, Singapore 139953</p>
+    </div>
+</footer>
+
+
+<script id="ze-snippet"
+    src="https://static.zdassets.com/ekr/snippet.js?key=9daee13c-d731-4d2c-a416-3fa2bdeadef5"> </script>
+
+<script
+    type="text/javascript"> _linkedin_partner_id = "285051"; window._linkedin_data_partner_ids = window._linkedin_data_partner_ids || []; window._linkedin_data_partner_ids.push(_linkedin_partner_id); </script>
+<script
+    type="text/javascript"> (function () { var s = document.getElementsByTagName("script")[0]; var b = document.createElement("script"); b.type = "text/javascript"; b.async = true; b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js"; s.parentNode.insertBefore(b, s); })(); </script>
+<noscript> <img height="1" width="1" style="display:none;" alt=""
+        src="https://dc.ads.linkedin.com/collect/?pid=285051&fmt=gif" /> </noscript>
+    <script>
+        (() => {
+            $('a[href*="#"]').on('click', function (e) {
+                e.preventDefault();
+
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top - 64
+                }, 500, 'linear');
+            });
+        })();
+    </script>
+</body>
+
+</html>

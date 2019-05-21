@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on VRcollab</title>
+    <link>https://vrcollab.com/posts/</link>
+    <description>Recent content in Posts on VRcollab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 00:16:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://vrcollab.com/posts/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Digital Twin that will restore Notre Dame de Paris</title>
+      <link>https://vrcollab.com/posts/digital-twin-that-will-restore-notre-dame-de-paris/</link>
+      <pubDate>Tue, 16 Apr 2019 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/digital-twin-that-will-restore-notre-dame-de-paris/</guid>
+      <description>The world mourns as the smouldering remains of the Cathedral of Notre Dame lays still on the banks of the Seine. Following a massive fire that engulfed the 850 year old French gothic architecture on Monday evening.</description>
+    </item>
+    
+    <item>
+      <title>Connect to your Stakeholders in 3 Easy Steps! Plus Mini-maps, Gridlines and more - VRcollab LITE v0.10.0</title>
+      <link>https://vrcollab.com/posts/v0.10.0/</link>
+      <pubDate>Mon, 18 Feb 2019 00:12:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/v0.10.0/</guid>
+      <description>In version v0.10.0, we have completely reiterated the design of the launcher, with a more focused workflow centred around stakeholder collaboration and data communication.</description>
+    </item>
+    
+    <item>
+      <title>BIM Integrations, Colour Markups &amp; VDC Coordination — VRcollab v0.9.10</title>
+      <link>https://vrcollab.com/posts/v0.9.10/</link>
+      <pubDate>Wed, 14 Nov 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/v0.9.10/</guid>
+      <description>New BIM &amp;amp; Format Import Integrations Added: Revit 2019 , Navisworks 18, Archicad 22 (Beta), Direct OBJ Import
+Supported as of v0.9.10: Revit(2014–2019), Sketchup(2016–2018), Archicad(21–22), Rhino3D 6, Navisworks 18, OBJ</description>
+    </item>
+    
+    <item>
+      <title>Best Office Setups for Virtual Design Construction (VDC) Coordination</title>
+      <link>https://vrcollab.com/posts/office-vdc-setup/</link>
+      <pubDate>Mon, 27 Aug 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/office-vdc-setup/</guid>
+      <description>With the growing adoption of BIM (Building Information Modelling) in the last decade, construction methodologies have seen an evolution towards lean construction and integrated project delivery.</description>
+    </item>
+    
+    <item>
+      <title>VRcollab STUDIO 2.0: Are CAVEs replacing coordination rooms in Architecture and Construction?</title>
+      <link>https://vrcollab.com/posts/vrcollab-studio-2.0/</link>
+      <pubDate>Tue, 19 Jun 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/vrcollab-studio-2.0/</guid>
+      <description>Building design coordination has traditionally been done in both meeting and board rooms, usually in front of a large screen while stakeholder’s perspective are dictated by a single pilot.</description>
+    </item>
+    
+    <item>
+      <title>Why include VR In BIM execution plan</title>
+      <link>https://vrcollab.com/posts/why-include-vr-in-bim-execution-plan/</link>
+      <pubDate>Tue, 19 Jun 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/why-include-vr-in-bim-execution-plan/</guid>
+      <description>Introduction Architecture, Engineering &amp;amp; Construction projects have long been hamstrung by delays and escalating costs due to a myriad of unforeseen factors and events during the planning and execution of complex projects.</description>
+    </item>
+    
+  </channel>
+</rss>

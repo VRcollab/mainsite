@@ -1,0 +1,68 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.cover {
+  background: #202020;
+  color: white;
+}
+
+.social-list .list-inline-item:not(:last-child) {
+  margin-right: 2rem;
+}
+
+.social-list a {
+  font-size: 1.5rem;
+  color: #202020;
+}
+
+.social-list-sm .list-inline-item:not(:last-child) {
+  margin-right: 1rem;
+}
+
+.social-list-sm a {
+  font-size: 20px;
+  color: #202020;
+}
+
+.footer {
+  background: #202020;
+  color: white;
+}
+
+.hero-image {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  /* position: relative; */
+}
+
+.baguetteBox-button {
+  background-color: transparent !important;
+}
+
+.center-children {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.border {
+  border: 1px solid black;
+}
+
+.box-shadow {
+  box-shadow: 5px 5px 10px lightgray;
+}
+
+.blue-font {
+  color: #233BB9; 
+}
+
+input[type=number]::-webkit-inner-spin-button {
+  opacity: 1;
+}
+
+.gray-border-bottom {
+  border-bottom: 1px solid lightgray;
+}

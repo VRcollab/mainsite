@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>VRcollab</title>
+    <link>https://vrcollab.com/</link>
+    <description>Recent content on VRcollab</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Tue, 16 Apr 2019 00:16:00 +0800</lastBuildDate>
+    
+	<atom:link href="https://vrcollab.com/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>The Digital Twin that will restore Notre Dame de Paris</title>
+      <link>https://vrcollab.com/posts/digital-twin-that-will-restore-notre-dame-de-paris/</link>
+      <pubDate>Tue, 16 Apr 2019 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/digital-twin-that-will-restore-notre-dame-de-paris/</guid>
+      <description>The world mourns as the smouldering remains of the Cathedral of Notre Dame lays still on the banks of the Seine. Following a massive fire that engulfed the 850 year old French gothic architecture on Monday evening.</description>
+    </item>
+    
+    <item>
+      <title>Connect to your Stakeholders in 3 Easy Steps! Plus Mini-maps, Gridlines and more - VRcollab LITE v0.10.0</title>
+      <link>https://vrcollab.com/posts/v0.10.0/</link>
+      <pubDate>Mon, 18 Feb 2019 00:12:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/v0.10.0/</guid>
+      <description>In version v0.10.0, we have completely reiterated the design of the launcher, with a more focused workflow centred around stakeholder collaboration and data communication.</description>
+    </item>
+    
+    <item>
+      <title>BIM Integrations, Colour Markups &amp; VDC Coordination — VRcollab v0.9.10</title>
+      <link>https://vrcollab.com/posts/v0.9.10/</link>
+      <pubDate>Wed, 14 Nov 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/v0.9.10/</guid>
+      <description>New BIM &amp;amp; Format Import Integrations Added: Revit 2019 , Navisworks 18, Archicad 22 (Beta), Direct OBJ Import
+Supported as of v0.9.10: Revit(2014–2019), Sketchup(2016–2018), Archicad(21–22), Rhino3D 6, Navisworks 18, OBJ</description>
+    </item>
+    
+    <item>
+      <title>Best Office Setups for Virtual Design Construction (VDC) Coordination</title>
+      <link>https://vrcollab.com/posts/office-vdc-setup/</link>
+      <pubDate>Mon, 27 Aug 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/office-vdc-setup/</guid>
+      <description>With the growing adoption of BIM (Building Information Modelling) in the last decade, construction methodologies have seen an evolution towards lean construction and integrated project delivery.</description>
+    </item>
+    
+    <item>
+      <title>VRcollab STUDIO 2.0: Are CAVEs replacing coordination rooms in Architecture and Construction?</title>
+      <link>https://vrcollab.com/posts/vrcollab-studio-2.0/</link>
+      <pubDate>Tue, 19 Jun 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/vrcollab-studio-2.0/</guid>
+      <description>Building design coordination has traditionally been done in both meeting and board rooms, usually in front of a large screen while stakeholder’s perspective are dictated by a single pilot.</description>
+    </item>
+    
+    <item>
+      <title>Why include VR In BIM execution plan</title>
+      <link>https://vrcollab.com/posts/why-include-vr-in-bim-execution-plan/</link>
+      <pubDate>Tue, 19 Jun 2018 00:16:00 +0800</pubDate>
+      
+      <guid>https://vrcollab.com/posts/why-include-vr-in-bim-execution-plan/</guid>
+      <description>Introduction Architecture, Engineering &amp;amp; Construction projects have long been hamstrung by delays and escalating costs due to a myriad of unforeseen factors and events during the planning and execution of complex projects.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/360/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/360/</guid>
+      <description>  VRcollab - BIM and VDC Coordination    VRcollab - BIM and VDC Coordination
+                 </description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/account/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/account/</guid>
+      <description>Account Overview - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}   {{ partial &#34;header.html&#34; . }} {{ partial &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/certified-professionals/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/certified-professionals/</guid>
+      <description>Certified Professionals - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header.html&#34; . }} {{ partial &#34;</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/confirm_email/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/confirm_email/</guid>
+      <description>About - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header.html&#34; . }} {{ partial &#34;hero.html&#34; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/contact_us/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/contact_us/</guid>
+      <description>Contact Us - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Making BIM Accessible</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/download/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/download/</guid>
+      <description>Downloading VRcollab Lite - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Your Download Has Started  If download does not start automatically, Click here for the direct download.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/forgot_password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/forgot_password/</guid>
+      <description>Forgot Password - BIM and VDC Coordination in Virtual Reality{{ partial &#34;head.html&#34; . }}{{ partial &#34;header_new.html&#34; . }}Making BIM Accessible</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/lite/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/lite/</guid>
+      <description>VRcollab Lite - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  .feature-cardimg { width: 100%; height: 230px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/login/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/login/</guid>
+      <description>Login - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Making BIM Accessible</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/offers/vr-bep-guide/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/offers/vr-bep-guide/</guid>
+      <description>Incorporate VR into your BEP {{ partial &#34;head.html&#34; . }}  html, body { height: 100%; } .bep-hero { background-image: url(&#34;/post-data/why-vr-in-BEP-post/LANDING PAGE Copy.png&#34;); background-size: cover; color: white; width: 100%; padding-top: 20px; } .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/pricing/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/pricing/</guid>
+      <description>Pricing - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} VRcollab LITE MERGE. MEET.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/purchase/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/purchase/</guid>
+      <description>Purchase - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Request a Quotation  Please fill in your details below to receive a quotation for the VRcollab LITE Licenses.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/quotation/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/quotation/</guid>
+      <description>Purchase - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Purchase LITE  An invoice for the VRcollab LITE Licenses (payment details included for Bank Transfer) will be sent to your email after all the details below have been filled.</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/register/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/register/</guid>
+      <description>Register - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header_new.html&#34; . }} Making BIM Accessible</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/reset_password/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/reset_password/</guid>
+      <description>Login - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  {{ partial &#34;header.html&#34; . }} {{ partial &#34;hero.html&#34; .</description>
+    </item>
+    
+    <item>
+      <title></title>
+      <link>https://vrcollab.com/studio/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://vrcollab.com/studio/</guid>
+      <description>VRcollab Studio - BIM and VDC Coordination in Virtual Reality {{ partial &#34;head.html&#34; . }}  .feature-cardimg { width: 100%; height: 230px; } .</description>
+    </item>
+    
+  </channel>
+</rss>
